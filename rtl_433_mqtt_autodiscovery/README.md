@@ -10,7 +10,11 @@ rtl_433 is a software package that receives wireless sensor data via [one of the
 
 The script looks for specific bits of data in rtl_433's output to figure out what kind of sensor the data is coming from and to help Home Assistant handle it appropriately.
 
-More specifically, this script looks for the following keys in rtl_433's event data:
+More specifically, this script looks for the following keys in rtl_433's event data
+
+I've added auto-discovery for Interlogix window and motion sensors circa 2009 that were already in my house:
+Work-in-progress as of 3 Feb 2023
+
 ```
 alarm
 battery_ok
