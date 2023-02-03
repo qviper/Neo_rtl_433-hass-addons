@@ -44,7 +44,30 @@ index 8b8136f96..6baa5197a 100755
 @@ -541,8 +558,56 @@
          }
      },
- 
+
++    "switch1": {
++        "device_type": "binary_sensor",
++        "object_suffix": "contact",
++        "config": {
++           "device_class": "safety",
++           "force_update": "true",
++           "payload_on": "OPEN",
++           "payload_off": "CLOSED"
++        }
++    },
++
++    "switch3": {
++        "device_type": "binary_sensor",
++        "object_suffix": "tamper",
++        "config": {
++            "device_class": "safety",
++            "force_update": "true",
++            "payload_on": "OPEN",
++            "payload_off": "CLOSED"
++        }
++    },
+
+
 +    "channel": {
 +        "device_type": "device_automation",
 +        "object_suffix": "CH",
