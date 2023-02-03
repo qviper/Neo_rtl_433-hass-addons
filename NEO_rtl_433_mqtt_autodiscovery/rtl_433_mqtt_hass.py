@@ -177,7 +177,7 @@ mappings = {
 
     "battery_ok": {
         "device_type": "sensor",
-        "object_suffix": "NeoB",
+        "object_suffix": "B",
         "config": {
             "device_class": "battery",
             "name": "Battery",
@@ -187,7 +187,30 @@ mappings = {
             "entity_category": "diagnostic"
         }
     },
+  
+    "switch1": {
+        "device_type": "binary_sensor",
+        "object_suffix": "contact",
+        "config": {
+           "device_class": "window",
+           "force_update": "true",
+           "payload_on": "OPEN",
+           "payload_off": "CLOSED"
+        }
+    },
 
+    "switch3": {
+        "device_type": "binary_sensor",
+        "object_suffix": "tamper",
+        "config": {
+            "device_class": "safety",
+            "force_update": "true",
+            "payload_on": "OPEN",
+            "payload_off": "CLOSED"
+        }
+    },
+  
+  
     "humidity": {
         "device_type": "sensor",
         "object_suffix": "H",
