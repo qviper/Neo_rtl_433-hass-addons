@@ -1,7 +1,6 @@
 {
   "name": "Neo_rtl_433 MQTT Auto Discovery",
-  "image": "ghcr.io/pbkhrv/rtl_433-hass-addons-rtl_433_mqtt_autodiscovery-{arch}",
-  "version": "0.5.0",
+  "version": "0.6.9",
   "slug": "NEOrtl433mqttautodiscovery",
   "description": "Neo Automatic discovery of rtl_433 device information via MQTT",
   "url": "https://github.com/qviper/Neo_rtl_433-hass-addons/tree/main/NEO_rtl_433_mqtt_autodiscovery",
