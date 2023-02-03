@@ -165,7 +165,7 @@ mappings = {
     # https://github.com/home-assistant/frontend/discussions/13687
     "time": {
         "device_type": "sensor",
-        "object_suffix": "UTC",
+        "object_suffix": "Zulu",
         "config": {
             "device_class": "timestamp",
             "name": "Timestamp",
