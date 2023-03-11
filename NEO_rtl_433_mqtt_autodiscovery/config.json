@@ -1,6 +1,6 @@
 {
   "name": "Neo_rtl_433 MQTT Auto Discovery",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "slug": "neortl433mqttautodiscovery",
   "description": "Neo Automatic discovery of rtl_433 device information via MQTT",
   "url": "https://github.com/qviper/Neo_rtl_433-hass-addons/tree/main/NEO_rtl_433_mqtt_autodiscovery",
