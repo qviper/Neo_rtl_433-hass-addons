@@ -193,7 +193,7 @@ mappings = {
         "object_suffix": "contact",
         "config": {
            "device_class": "window",
-           "force_update": "true",
+           "force_update": "false",
            "payload_on": "OPEN",
            "payload_off": "CLOSED"
         }
@@ -204,7 +204,7 @@ mappings = {
         "object_suffix": "tamper",
         "config": {
             "device_class": "safety",
-            "force_update": "true",
+            "force_update": "false",
             "payload_on": "OPEN",
             "payload_off": "CLOSED"
         }
